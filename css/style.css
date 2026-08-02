@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(3, 80, 3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+       /*HEAD TITLE */
+header{
+    color: cornsilk;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+     /*NAVIGATION BAR */
+nav{
+    background-color: rgb(255, 85, 25);
+    height:50px;
+    margin-top: 10px;
+    text-align: center;
+    align-content: center;
+}
+nav a{
+    text-decoration: none;
+    color: #F8FAFC;
+    padding: 10px;
+    text-align: center;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+nav a:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+    color: rgb(182, 52, 0);
+    padding: 10px;
+    border-radius: 5px;
+}
+nav #home-bar{
+    font-weight: bolder;
+    color: bisque;
+}
+
+
+     /*MAIN GRID */
+main{
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    margin-top: 10vh;
+    background-color: darkkhaki;
+}
+section{
+    
+    margin-left: 40px;
+    width: 300px;
+    height: 400px;
+}
+section img{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+section h3{
+    padding-left: 80px;
+    color: rgb(2, 90, 2);
+    font-weight: bolder;
+    font-size: larger;
+}
+section #resume{
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+article{
+    flex: 1;
+    padding: 60px;
+}
+article button{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(69, 69, 202);
+}
+article button a{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bolder;
+    color: white;  
+}
+article button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#resume{
+    margin-left: 10px;
+    width: 100px;
+    text-decoration: none;
+    color: #F8FAFC;
+    padding: 10px;
+    text-align: center;
+    background-color: darkslategray;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+#resume:hover{
+    cursor: pointer;
+    background-color: #F8FAFC;
+    color: darkslategray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+     /*MEDIAQUERY*/
+
+@media(max-width:500px){
+
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+    main article{
+        text-align: center;
+        padding: 20px;
+    }
+    section img{
+        width: 180px;
+        height: 180px;
+    }
+    button{
+        width: 100%;
+    }
+    body{
+        padding: 0%;
+        margin: 0%;
+    }
+    h1{
+        font-size: 32px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+
+

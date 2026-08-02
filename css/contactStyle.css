@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(3, 80, 3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    color: cornsilk;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+     /*NAVIGATION BAR*/
+nav{
+    background-color: rgb(255, 85, 25);
+    height:50px;
+    margin-top: 10px;
+    text-align: center;
+    align-content: center;
+}
+nav a{
+    text-decoration: none;
+    color: #F8FAFC;
+    padding: 10px;
+    text-align: center;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+nav a:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+    color: rgb(182, 52, 0);
+    padding: 10px;
+    border-radius: 5px;
+}
+nav #contact-bar{
+    font-weight: bolder;
+    color: bisque;
+}
+
+     
+
+     /*NAVIGATION BAR*/
+#input-contact h3{
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 300px;
+}
+#input-contact{
+    background-color: darkkhaki;
+    width: 23vw;
+    height: 60vh;
+    padding: 50px;
+    margin-top: 40px;
+    margin-left: 35vw;
+    
+}
+input{
+    display: block;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: darkslategray;
+    margin-top: 10px;
+    font-size: small;
+    font-display: auto;
+    font-weight:600;
+}
+textarea{
+    display: block;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: darkslategray;
+    margin-top: 10px;
+    font-weight: 900;
+}
+button{
+    display: block;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: darkslategray;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 900;
+    background: darkslategray;
+    color: #F8FAFC;
+}
+button:hover{
+    transform: scale(1.05);
+    transition: 0.3;
+}
+input:required:invalid,textarea:required:invalid{
+    border: 1px solid red;
+}

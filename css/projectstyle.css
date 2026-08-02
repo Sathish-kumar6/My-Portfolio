@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(3, 80, 3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    color: cornsilk;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+     /*NAVIGATION BAR */
+nav{
+    background-color: rgb(255, 85, 25);
+    height:50px;
+    margin-top: 10px;
+    text-align: center;
+    align-content: center;
+}
+nav a{
+    text-decoration: none;
+    color: #F8FAFC;
+    padding: 10px;
+    text-align: center;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+nav a:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+    color: rgb(182, 52, 0);
+    padding: 10px;
+    border-radius: 5px;
+}
+nav #project-bar{
+    font-weight: bolder;
+    color: bisque;
+}
+
+
+h1{
+    background-color: white;
+    color: darkslategray;
+    width: 50vw;
+    text-align: center;
+    margin-left: 25vw;
+    padding: 5px;
+}
+#projects{
+    background-color: darkkhaki;
+    display: flex;
+    gap: 50px;
+    width: 50vw;
+    height: 50vh;
+    padding: 40px;
+    margin-left: 22vw;
+    margin-top: 5vh;
+    justify-content: center;
+}
+#projects h3{
+    font-size: large;
+    font-weight: bold;
+    color: darkslategray;
+    text-align: center;
+}
+#projects p{
+    font-size: small;
+    font-weight: 400;
+}
+#project1 {
+    background-color: darkkhaki;
+    border: 2px solid rgb(150, 150, 90);
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    padding: 10px; 
+}
+#project1 img{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+#project2{
+    background-color: darkkhaki;
+    border: 2px solid rgb(150, 150, 90);
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    
+}
+#project2 img{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+}
+#projects div:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}

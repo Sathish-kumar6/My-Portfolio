@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(3, 80, 3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+     /*HEADER*/
+header{
+    color: cornsilk;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+}
+nav{
+    background-color: rgb(255, 85, 25);
+    height:50px;
+    margin-top: 10px;
+    text-align: center;
+    align-content: center;
+}
+nav a{
+    text-decoration: none;
+    color: #F8FAFC;
+    padding: 10px;
+    text-align: center;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+nav a:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+    color: rgb(182, 52, 0);
+    padding: 10px;
+    border-radius: 5px;
+}
+nav #education-bar{
+    font-weight: bolder;
+    color: bisque;
+}
+
+
+     /*MAIN SECTION */
+
+#education-data{
+    background-color: darkkhaki;
+    width: 50vw;
+    height: 30vh;
+    padding: 50px;
+    margin-top: 20vh;
+    margin-left: 20vw;
+}
+#education-data h1{
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: auto;
+}
+table{
+    border-radius: 5px;
+    border-color: darkslategray;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    width: 40vw;
+    text-align: center;
+}
+td{
+    font-weight: 500;
+}
