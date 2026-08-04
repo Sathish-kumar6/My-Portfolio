@@ -9,13 +9,19 @@
 <body>
     <header>Sathish kumar</header>
     <nav>
-        <a href="index.html" id="home-bar">Home</a>
-        <a href="about.html">About</a>
-        <a href="skills.html">Skills</a>
-        <a href="projects.html">Project</a>
-        <a href="education.html">Education</a>
-        <a href="contact.html">Contact</a>
+        <div class="nav-links" id="navlinks">
+            <a href="index.html" id="home-bar">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Project</a>
+            <a href="education.html">Education</a>
+            <a href="contact.html">Contact</a>
+        </div>
+            <div  class="hamburger" id="hamburger">
+            &#9776
+        </div>
     </nav>
+    
     <main>
         <section>
             <img src="images/PROFILE-IMAGE.jpeg"alt="Sathish profile" width="200px" height="200px">
@@ -29,9 +35,17 @@
             for visit my portfolio.
             </p>
             <button>
+                <img src="images/call.png">
                 <a href="tel:+6379434946">Contact me</a>
             </button>
         </article>
-    <main>    
+    <main>  
+        <script>
+            const hamburger = document.getElementById("hamburger");
+            const navlinks = document.getElementById("navlinks");
+            hamburger.addEventListener("click", () => {
+                navlinks.classList.toggle("active");
+            });
+        </script>  
 </body>
 </html>

@@ -43,6 +43,13 @@ nav #home-bar{
     color: bisque;
 }
 
+nav #hamburger{
+    color: #F8FAFC;
+    display: none;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
 
      /*MAIN GRID */
 main{
@@ -77,10 +84,15 @@ article{
     padding: 60px;
 }
 article button{
-    width: 120px;
+    width: 150px;
     height: 40px;
     border-radius: 5px;
     background-color: rgb(69, 69, 202);
+}
+article button img{
+    width: 30px;
+    height: 20px;
+    
 }
 article button a{
     text-decoration: none;
@@ -115,18 +127,39 @@ article button:hover{
 
 @media(max-width:500px){
 
+    nav #hamburger{
+        display: block;
+    }
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(255, 85, 25);
+        z-index: 1000;
+    }
+    .nav-links.active{
+        display: flex;
+    }
     main{
         flex-direction: column;
+        gap: 0px;
         align-items: center;
+        padding: 0%;
+        margin: auto;
+        margin-top: 30px;
+        border-radius: 20px;
+        height: auto;
     }
     main article{
         text-align: center;
-        padding: 20px;
+        padding: 0px;
     }
     section img{
         width: 180px;
         height: 180px;
+        
     }
+   
     button{
         width: 100%;
     }
@@ -136,9 +169,22 @@ article button:hover{
     }
     h1{
         font-size: 32px;
+        color: darkgreen;
     }
     p{
-        font-size: 16px;
+        font-size: medium;
+        font-weight: 600;
+
+    }
+    article button img{
+        width: 20px;
+        height: 20px;
+    }
+    article button {
+        width: 300px;
+        height: 40px;
+        border-radius: 10px;
+        
     }
 }
 
