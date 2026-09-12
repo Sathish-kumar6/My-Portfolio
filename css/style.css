@@ -77,7 +77,7 @@ section img{
     padding-left: 50px;
 }
 section h3{
-    padding-left: 80px;
+    padding-left: 60px;
     color: rgb(2, 90, 2);
     font-weight: bolder;
     font-size: larger;
@@ -106,7 +106,7 @@ article button:hover{
     transition: 0.5s;
 }
 #resume{
-    margin-left: 10px;
+    margin-left: 40px;
     width: 100px;
     text-decoration: none;
     color: #F8FAFC;
@@ -149,7 +149,7 @@ article button:hover{
         padding: 0%;
         margin: auto;
         margin-top: 30px;
-        border-radius: 20px;
+        border-radius: 500px;
         height: auto;
     }
     main article{
@@ -178,10 +178,7 @@ article button:hover{
         font-weight: 600;
 
     }
-    article button img{
-        width: 20px;
-        height: 20px;
-    }
+ 
     article button {
         width: 300px;
         height: 40px;
