@@ -149,7 +149,7 @@ article button:hover{
         padding: 0%;
         margin: auto;
         margin-top: 30px;
-        border-radius: 500px;
+        border-radius: 100px;
         height: auto;
     }
     main article{
@@ -161,7 +161,9 @@ article button:hover{
         height: 180px;
         
     }
-   
+    p{
+        width: 400px;
+    }
     button{
         width: 100%;
     }
