@@ -82,12 +82,11 @@ section h3{
     font-weight: bolder;
     font-size: larger;
 }
-section #resume{
-    margin-left: 60px;
-    margin-bottom: 20px;
+section a{
+    background-color: white;
 }
 article{
-    flex: 1;
+    flex: 3;
     padding: 60px;
 }
 article button{
@@ -96,12 +95,7 @@ article button{
     border-radius: 5px;
     background-color: rgb(69, 69, 202);
 }
-article button img{
-    width: 30px;
-    height: 20px;
-    
-}
-article button a{
+article a button{
     text-decoration: none;
     font-size: medium;
     font-weight: bolder;
