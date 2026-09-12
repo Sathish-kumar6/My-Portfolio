@@ -83,7 +83,7 @@ section h3{
     font-size: larger;
 }
 section a{
-    background-color: white;
+    padding: 20px;
 }
 article{
     flex: 3;
@@ -115,6 +115,7 @@ article button:hover{
     background-color: darkslategray;
     font-weight: bolder;
     border-radius: 5px;
+    margin-top: 40px;
 }
 #resume:hover{
     cursor: pointer;
