@@ -127,7 +127,7 @@ article button:hover{
 
      /*MEDIAQUERY*/
 
-@media(max-width:500px){
+@media(max-width:600px){
 
     nav #hamburger{
         display: block;

@@ -14,7 +14,7 @@ nav #about-bar{
 
      /*MAIN SECTION*/
 #aboutme{
-    width: 80vw;
+    width: 70vw;
     height: 400px;
     margin-left: 15vw;
     background-color: darkkhaki ;
@@ -32,14 +32,13 @@ nav #about-bar{
     font-size: medium;
     line-height: 3ch;
     font-weight: 600;
-
 }
 #social-links{
     display: flex;
     flex: 10px;
     gap: 50px;
     margin-left: 25vw;
-    
+    width: 500px;
     padding: 20px;
 }
 #social-links button{
@@ -76,7 +75,7 @@ nav #about-bar{
     #aboutme{
         flex-direction: column;
         flex-wrap: wrap;
-        height: 500px;
+        height: 600px;
         margin: auto;
         margin-top: 30px;
         border-radius: 20px;
@@ -87,11 +86,10 @@ nav #about-bar{
     }
     p{
         font-size: 16px;
-        width: 350px;
     }
     #social-links{
         flex-direction: row;
-        gap: 100px;
+        gap: 50px;
         margin: auto;
     }
 }
